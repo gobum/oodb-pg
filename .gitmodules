@@ -1,0 +1,3 @@
+[submodule "hope-pg"]
+	path = hope-pg
+	url = git@github.com:gobum/hope-pg.git
