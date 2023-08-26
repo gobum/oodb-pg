@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  dev:
+    build: .
+    image: oodb-pg
+    volumes:
+      - ~/.ssh:/root/.ssh
+      - ~/.git:/root/.git
+      - .:/workspaces:cached
+      - .:/com.docker.devenvironments.code
+
+ 

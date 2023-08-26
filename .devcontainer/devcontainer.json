@@ -1,0 +1,13 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "oodb-pg",
+
+	"dockerComposeFile": [
+		"../compose-dev.yaml"
+	],
+
+	"service": "dev",
+
+	"workspaceFolder": "/workspaces"
+
+}
